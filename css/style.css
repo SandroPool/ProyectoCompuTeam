@@ -1,0 +1,31 @@
+body{
+    background-image: url('../img/logo.png');
+}
+
+.font-family{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+.logo {
+    border-radius: 8px;
+    width: 100px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.redes {
+    width: 60px;
+    border-radius: 12px;
+}
+
+.grilla{
+    width: 340px;
+}
+.marca{
+    height: 340px;
+    width: 300px;
+}
+.search{
+    margin-top: 15px;
+}

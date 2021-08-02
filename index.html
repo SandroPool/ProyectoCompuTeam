@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compu Team HCO</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/ch.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="blue-grey darken-3">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">
+          <img src="img/logocth.png" alt="nuestro logo CH" class="logo">
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="computadoras.html">Computadoras</a></li>
+          <li><a href="laptops.html">Laptops</a></li>
+          <li><a href="smartphones.html">Smartphones</a></li>
+          <li><a href="componentes.html">Componentes</a></li>
+
+          <!-- Login -->
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a href="login.html">Iniciar <i class="material-icons">account_circle</i> </a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="singin.html">Registrarse <i class="material-icons">person_add</i> </a></li>
+          </ul>
+          <a class="btn dropdown-trigger" href="#!" data-target="dropdown2">
+            Iniciar Sesión
+            <i class="material-icons right">arrow_drop_down</i>
+          </a>
+
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html"> <i class="material-icons">home</i> Inicio </a> </li>
+      <li>
+        <a href="#!" class="dropdown-trigger" data-target="computadoras"> 
+          <i class="material-icons">computer</i> 
+          Computadoras
+        </a>
+        <ul id="computadoras"  class="dropdown-content">
+          <li><a href="computadoras.html"><i class="material-icons">games</i>Computadoras Gammer</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="#!"><i class="material-icons">home</i>Computadoras Home</a></li>
+        </ul>
+        
+      </li>
+      <li>
+        <a href="#!" class="dropdown-trigger" data-target='laptops'> 
+          <i class="material-icons">laptop_chromebook</i> 
+          Laptops
+      </a>
+        <ul id="laptops"  class="dropdown-content">
+          <li><a href="laptops.html"><i class="material-icons">games</i>Laptops Gammer</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="#!"><i class="material-icons">home</i>Laptops Home</a></li>
+        </ul>
+      </li>
+      
+      <li><a href="smartphones.html"> <i class="material-icons">smartphone</i> Smartphones</a></li>
+
+      <li>
+        <a href="#!" class="dropdown-trigger" data-target="componentes"> 
+          <i class="material-icons">build</i> 
+          Componentes
+        </a>
+        <ul id="componentes"  class="dropdown-content">
+          <li><a href="componentes.html"><i class="material-icons">settings_input_component</i>Electrónica</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="#!"><i class="material-icons">settings_input_hdmi</i>Partes de PC</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="#!" class="dropdown-trigger blue-text" data-target="sesion"> 
+          <i class="material-icons blue-text">arrow_drop_down_circle</i> 
+          Iniciar Sesión
+        </a>
+        <ul id="sesion"  class="dropdown-content">
+          <li><a href="login.html" class="green-text"><i class="material-icons green-text">account_circle</i>Iniciar</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="singin.html" class="amber-text"><i class="material-icons amber-text">person_add</i>Registrarse</a></li>
+        </ul>
+      </li>
+
+    </ul>
+
+  </header>
+
+  <main>
+
+    <div class="container">
+
+      <nav class="blue darken-3 search">
+        <div class="nav-wrapper">
+          <form>
+            <div class="input-field">
+              <input id="search" type="search" required>
+              <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+        </div>
+      </nav>
+     
+    </div>
+
+    <div class="container center white">
+      <h1 class="white-text font-family center">Bienvenido a Compu Team H.C.O</h1>
+      <h2 class="blue-text darken-4 font-family center">Ofertas Exclusivas</h2>
+
+      <div class="row">
+        <div class="col s6 m6 l3">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://lorempixel.com/800/400/nature/2">
+              <span class="card-title">S/ 4500</span>
+              <del >S/ 5000</del>
+            </div>
+            <div class="card-content center">
+              <p>
+                aprovecha este super descuento laptop Acer helios 300
+              </p>
+            </div>
+            <div class="card-action center">
+              <button class="blue btn"><i class="material-icons">file_download</i> </button>
+              <button class="green btn"><i class="material-icons">share</i> </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m6 l3">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://lorempixel.com/800/400/nature/10">
+              <span class="card-title">S/ 4500</span>
+              <del >S/ 5000</del>
+            </div>
+            <div class="card-content center">
+              <p>
+                aprovecha este super descuento laptop Acer helios 300
+              </p>
+            </div>
+            <div class="card-action center">
+              <button class="blue btn"><i class="material-icons">file_download</i> </button>
+              <button class="green btn"><i class="material-icons">share</i> </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m6 l3">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://lorempixel.com/800/400/nature/3">
+              <span class="card-title">S/ 4500</span>
+              <del >S/ 5000</del>
+            </div>
+            <div class="card-content center">
+              <p>
+                aprovecha este super descuento laptop Acer helios 300
+              </p>
+            </div>
+            <div class="card-action center">
+              <button class="blue btn"><i class="material-icons">file_download</i> </button>
+              <button class="green btn"><i class="material-icons">share</i> </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m6 l3">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://lorempixel.com/800/400/nature/5">
+              <span class="card-title">S/ 4500</span>
+              <del >S/ 5000</del>
+            </div>
+            <div class="card-content center">
+              <p>
+                aprovecha este super descuento laptop Acer helios 300
+              </p>
+            </div>
+            <div class="card-action center">
+              <button class="blue btn"><i class="material-icons">file_download</i> </button>
+              <button class="green btn"><i class="material-icons">share</i> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <h2 class="blue-text darken-4 font-family center">Categorías</h2>
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/catergoriaPC.jpg"> <!-- random image  -->
+                <div class="caption center-align">
+                  <h3>Computadoras</h3>
+                  <h5 class="light white-text text-lighten-3">
+                    <!-- <a href="#"> Descubrelas.</a> -->
+                    Descubrelas.
+                  </h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/categoriaLaptop.jpg"> <!--  random image -->
+                <div class="caption left-align">
+                  <h3>Laptops</h3>
+                  <h5 class="light grey-text text-lighten-3">Las más hermosas.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/categoriaSmartphones.png"> <!--  random image -->
+                <div class="caption right-align">
+                  <h3>Smartphones</h3>
+                  <h5 class="light grey-text text-lighten-3">Smartphones calidad precio.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/categoriaComponentes.jpg"> <!--  random image -->
+                <div class="caption center-align">
+                  <h3>Componentes</h3>
+                  <h5 class="light grey-text text-lighten-3">Componentes para complementar tu set.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <h2 class="blue-text darken-4 font-family center">Nuestras Marcas Estrella</h2>
+      <div class="row">
+        <div class="col s11 m6 l4">
+          <img src="img/logoAorus.jpg" class="marca" alt="logo de aorus">
+        </div>
+        <div class="col s12 m6 l4">
+          <img src="img/logoAcer.png" class="marca" alt="logo de acer">
+        </div>
+        <div class="col s12 m6 l4">
+          <img src="img/logoMSI.png" class="marca" alt="logo de MSI">
+        </div>
+        <div class="col s12 m6 l4">
+          <img src="img/logoArduino.png" class="marca" alt="logo de arduino">
+        </div>
+        <div class="col s12 m6 l4">
+          <img src="img/logoasus.jpg" class="marca" alt="logo de asus">
+        </div>
+        <div class="col s12 m6 l4">
+          <img src="img/logoDell.png" class="marca" alt="logo de dell">
+        </div>
+      </div>  
+    </div>
+
+
+  </main>
+
+ 
+
+  <footer class="page-footer blue-grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Compu Team Huamachuco</h5>
+          <p class="grey-text text-lighten-4">
+            Ponte en contacto con nosotros, vendemos computadoras de primera y
+            a buen precio.
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Metodos de comunicación</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">
+                <img src="img/whatsapp.png" alt="logo whatsapp" class="redes">
+              </a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">
+                <img src="img/facebook.png" alt="logo facebook" class="redes">
+              </a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container" id="copy">
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
